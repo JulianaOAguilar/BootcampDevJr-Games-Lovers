@@ -1,0 +1,36 @@
+body {
+    background-color: #CCCCCC;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    background-color: #280F2C;
+    width: 37.5rem;
+    border-radius: 0.3125rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(255, 187, 0);
+    width: 700;
+    margin-bottom: 1rem;
+
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin: 0.2rem;
+}
