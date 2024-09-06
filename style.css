@@ -1,6 +1,8 @@
+
+
 body {
-    background-color: #CCCCCC;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #d8d8d8;
+    
 }
 
 input {
@@ -30,6 +32,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 2.5rem;
+    overflow: hidden;
 }
 
 
@@ -53,13 +56,16 @@ button {
     text-align: center;
     color: white;
     margin: 0.2rem;
+    margin-bottom: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .forms {
+
     background-color: #621F6E;
     width: 90%;
     border-radius: 0.3125rem;
-    margin: auto;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
@@ -113,6 +119,27 @@ button {
     font-size: 1.2rem;
     }
 
+    @media  screen  and (max-width:800px) {
 
+        .container {
+            margin-left: 0;
+          width: 30%;
+        }
+        .boxes {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-left: 0;
+            width: auto;
+        }
+    }
+
+    .developer {
+        text-align: center;
+        font-size: 1rem;
+        color: beige;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
 
 
