@@ -12,6 +12,16 @@ input {
   border: none;
 }
 
+button {
+    width: 5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #280F2C;
+    border: none;
+    border-radius: 0.3rem;
+    color:whitesmoke
+}
+
 .container {
     background-color: #280F2C;
     width: 37.5rem;
@@ -35,6 +45,7 @@ input {
     color:rgb(255, 187, 0);
     width: 700;
     margin-bottom: 1rem;
+    margin-top: -1rem;
 
 }
 
@@ -62,4 +73,46 @@ input {
     color: white;
     
 }
+
+
+.boxes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+
+.item-conteiner {
+    background-color: #3C5BEE;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;
+    border: #06070a;
+    margin: 0.9rem;
+    border-radius: 0.3rem;
+
+}
+
+    .option {
+        background-color: #6f87fd;
+        margin: 0.4rem;
+        width: 8.5rem;
+    
+        
+    }
+
+    .image {
+        margin-left: -0.6rem;
+    }
+
+    .games {
+        padding: 1rem;
+    font-size: 1.2rem;
+    }
+
+
+
 
