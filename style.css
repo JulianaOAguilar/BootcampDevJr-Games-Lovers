@@ -25,7 +25,8 @@ button {
 }
 
 .container {
-    background-color: #280F2C;
+
+    background: linear-gradient(0deg, rgba(121,46,121,1) 8%, rgba(58,19,78,1) 39%, rgba(28,11,42,1) 100%);
     width: 37.5rem;
     border-radius: 0.3125rem;
     margin: auto;
@@ -62,8 +63,8 @@ button {
 
 .forms {
 
-    background-color: #621F6E;
-    width: 90%;
+    background: linear-gradient(180deg, rgba(121,46,121,1) 15%, rgba(28,11,42,1) 100%);   
+     width: 90%;
     border-radius: 0.3125rem;
     margin: 1rem;
     display: flex;
@@ -103,9 +104,11 @@ button {
 }
 
     .option {
-        background-color: #6f87fd;
+
         margin: 0.4rem;
         width: 8.5rem;
+        background: rgb(84,78,194);
+background: linear-gradient(180deg, rgba(84,78,194,1) 0%, rgba(153,196,255,1) 100%);
     
         
     }
@@ -124,6 +127,7 @@ button {
         .container {
             margin-left: 0;
           width: 30%;
+          margin: auto;
         }
         .boxes {
             display: flex;
