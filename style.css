@@ -125,9 +125,10 @@ background: linear-gradient(180deg, rgba(84,78,194,1) 0%, rgba(153,196,255,1) 10
     @media  screen  and (max-width:800px) {
 
         .container {
-            margin-left: 0;
-          width: 30%;
-          margin: auto;
+    
+          width: 95%;
+          margin: 0;
+          padding: auto;
         }
         .boxes {
             display: flex;
@@ -136,6 +137,11 @@ background: linear-gradient(180deg, rgba(84,78,194,1) 0%, rgba(153,196,255,1) 10
         input {
             margin-left: 0;
             width: auto;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
         }
     }
 
